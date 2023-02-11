@@ -1,0 +1,38 @@
+.arrowlogo {
+  height: 24px;
+  width: 33px;
+  margin-left: 20px;
+  margin-top: 33.6376953125px;
+  border-radius: 0px;
+}
+.mainLogo {
+  margin: auto;
+  height: 63px;
+  width: 47px;
+  left: 156.5px;
+  top: 33.6376953125px;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+}
+.MobileNav {
+  background-image: url("https://res.cloudinary.com/drjnmxyd5/image/upload/v1676033131/Group_1554_dojxgk.svg");
+  width: 100vw;
+  background-size: cover;
+}
+.PolicyContainer {
+  height: 145px;
+  width: 190px;
+  margin: auto;
+  margin-top: 40px;
+}
+.PolicyContainer > p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #575757;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,75 @@
+.headerContainer {
+  height: 95.0604476928711px;
+  max-width: 1075.614990234375px;
+  margin: auto;
+  margin-top: 23px;
+}
+.navLinksContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.LinksContainer {
+  height: 90.00006866455078px;
+  width: 848.7644653320312px;
+  display: flex;
+  justify-content: space-between;
+}
+.logoContainer {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+.logo {
+  height: 95.0604476928711px;
+  width: 70.7294921875px;
+  left: 68.76708984375px;
+  top: 35.5673828125px;
+  border-radius: 0px;
+}
+.navNames {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #4b422e;
+}
+@media screen and (max-width: 1024px) {
+  .navLinksContainer {
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobileView {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mobileView {
+    display: flex;
+    align-items: center;
+  }
+  .navLinksContainer {
+    display: none;
+    flex-direction: column;
+  }
+  .headerContainer {
+    display: none;
+  }
+  .LinksContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+  .logo {
+    margin: auto;
+  }
+  .dotButton {
+    padding-left: 20px;
+    position: absolute;
+  }
+}

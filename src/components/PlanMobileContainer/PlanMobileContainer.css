@@ -1,0 +1,33 @@
+.PlanMobileNav {
+  background-image: url("https://res.cloudinary.com/drjnmxyd5/image/upload/v1676033131/Group_1554_dojxgk.svg");
+  width: 100vw;
+  background-size: cover;
+}
+
+.priceDetails {
+  height: 98.5478515625px;
+  width: 127.84619140625px;
+  margin: auto;
+  margin-top: 142px;
+}
+.priceDetails > h1 {
+  height: 28px;
+  width: 126px;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #575757;
+}
+.priceDetails > p {
+  height: 8px;
+  width: 67px;
+  font-family: Poppins;
+  font-size: 6px;
+  line-height: 8px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: auto;
+}

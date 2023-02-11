@@ -1,0 +1,97 @@
+.slickContainer {
+  height: 559.1016235351562px;
+  width: 535.3046875px;
+  margin: auto;
+  margin-top: 93.27px;
+}
+
+.slickImage {
+  height: 341.3863830566406px;
+  width: 358.0703125px;
+  margin: auto;
+}
+.slickTabs > h1 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  color: #666666b2;
+  text-align: center;
+}
+.slickTabs > p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #666666b2;
+  margin-bottom: 35px;
+}
+.slick-dots li.slick-active button:before,
+.slick-dots li button:before {
+  height: 17.6484375px;
+  width: 17.6484375px;
+  color: transparent;
+  opacity: 1;
+  font-size: 17.6484375px;
+  border: 2px solid #000000a3;
+  border-radius: 100%;
+}
+.slick-dots li.slick-active button {
+  height: 17.6484375px;
+  width: 17.6484375px;
+  left: 0px;
+  top: 0px;
+
+  border-radius: 100%;
+  color: #000000a3;
+}
+.slick-dots li.slick-active button:before {
+  height: 17.6484375px;
+  width: 17.6484375px;
+  left: 0px;
+  top: 0px;
+  font-size: 15.6484375px;
+  color: #000000a3;
+}
+
+.playStoreContainer {
+  height: 59.36669921875px;
+  width: 323.7640380859375px;
+  border: 1px solid #a6a6a6;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .slickContainer {
+    width: 100%;
+    margin-top: 67.36px;
+  }
+  .slick-next {
+    right: 0px;
+  }
+  .slickTabs > p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 103.169921875px;
+    width: 272.078125px;
+    margin: auto;
+  }
+  .slickTabs > h1 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #385b64;
+  }
+  .playStoreContainer {
+    flex-direction: column;
+    border: none;
+  }
+}

@@ -1,0 +1,70 @@
+.FullbodyUgcContainer {
+  background-image: url("https://res.cloudinary.com/drjnmxyd5/image/upload/v1676033131/Group_1554_dojxgk.svg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+.ugcTermContainer {
+  height: 238.5px;
+  max-width: 835px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ugcHeading {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000b2;
+  margin-top: 40px;
+  margin-bottom: 54px;
+}
+.selectedOptions {
+  height: 49px;
+  width: 615px;
+  left: 110px;
+  top: 0px;
+  border-radius: 10px;
+  border: 3px solid #000000;
+  text-align: center;
+}
+.selectedOptions > option {
+  text-transform: capitalize;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 22px;
+  width: 307px;
+  left: 174.5px;
+  top: 13.5px;
+  border-radius: nullpx;
+  color: #000000b2;
+}
+.ugcTermContainer > p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  height: 72px;
+  width: 372px;
+  left: 252px;
+  top: 77.25px;
+  border-radius: nullpx;
+  margin-top: 29px;
+}
+.ugcFooter {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

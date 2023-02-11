@@ -1,0 +1,22 @@
+.tapbarContainer {
+  height: 12.771484375px;
+  max-width: 1449.3818359375px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    #f5222d 12.18%,
+    #faff00 22.67%,
+    rgba(66, 255, 0, 0.609375) 34.57%,
+    rgba(15, 111, 255, 0.807916) 47.86%,
+    #ff0000 64.94%,
+    #db00ff 79.39%,
+    #ff0c0c 96.71%,
+    rgba(216, 123, 217, 0.126442) 117.65%
+  );
+  margin: auto;
+}
+@media screen and (max-width: 768px) {
+  .tapbarContainer {
+    height: 3.64px;
+  }
+}

@@ -1,0 +1,45 @@
+.FullbodyTermContainer {
+  background-image: url("https://res.cloudinary.com/drjnmxyd5/image/upload/v1676033131/Group_1554_dojxgk.svg");
+  width: 100vw;
+  height: 1024px;
+  background-size: cover;
+}
+
+.TermContainer {
+  max-width: 835px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.selectedOptionsinterms {
+  height: 49px;
+  width: 100%;
+  max-width: 615px;
+  left: 110px;
+  top: 0px;
+  border-radius: 10px;
+  border: 3px solid #000000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.selectedOptionsinterms > option {
+  text-transform: capitalize;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 22px;
+  width: 307px;
+  left: 174.5px;
+  top: 13.5px;
+  border-radius: nullpx;
+  color: #000000b2;
+}
+.termFooter {
+  width: 100%;
+}
