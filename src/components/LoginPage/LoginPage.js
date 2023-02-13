@@ -14,7 +14,7 @@ const LoginPage = () => {
             src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1676097641/Group_1602_prpzew.svg"
             alt=""
             className="arrowlogo"
-            style={{ position: "absolute", top: "25px" }}
+            style={{ position: "absolute", top: "25px", right: "0", left: "0" }}
           />
         </Link>
         <div className="logoContainer">
