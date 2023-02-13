@@ -1,8 +1,7 @@
 .slickContainer {
-  height: 559.1016235351562px;
+  height: 485px;
   width: 535.3046875px;
   margin: auto;
-  margin-top: 93.27px;
 }
 
 .slickImage {
@@ -27,7 +26,6 @@
   letter-spacing: 0em;
   text-align: center;
   color: #666666b2;
-  margin-bottom: 35px;
 }
 .slick-dots li.slick-active button:before,
 .slick-dots li button:before {
@@ -68,7 +66,7 @@
 @media screen and (max-width: 768px) {
   .slickContainer {
     width: 100%;
-    margin-top: 67.36px;
+    height: 465px;
   }
   .slick-next {
     right: 0px;
@@ -79,7 +77,6 @@
     line-height: 18px;
     letter-spacing: 0em;
     text-align: center;
-    height: 103.169921875px;
     width: 272.078125px;
     margin: auto;
   }
@@ -93,5 +90,6 @@
   .playStoreContainer {
     flex-direction: column;
     border: none;
+    width: 100%;
   }
 }

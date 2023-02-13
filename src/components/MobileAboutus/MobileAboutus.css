@@ -1,3 +1,8 @@
+.MobileAboutContainer {
+  background-image: url("https://res.cloudinary.com/drjnmxyd5/image/upload/v1676033131/Group_1554_dojxgk.svg");
+  width: 100vw;
+  background-size: cover;
+}
 .aboutMatter {
   width: 320px;
   left: 20px;
@@ -24,4 +29,6 @@
   text-align: center;
   color: #575757;
   margin-bottom: 35px;
+  height: 659px;
+  overflow: scroll;
 }

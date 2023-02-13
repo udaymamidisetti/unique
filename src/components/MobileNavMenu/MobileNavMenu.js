@@ -18,7 +18,7 @@ const MobileNavMenu = () => {
           <img
             src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1676097641/Group_1602_prpzew.svg"
             alt=""
-            className="arrowlogo"
+            className="mobileNavArrow"
           />
         </Link>
         <img src={Logo} alt="" className="mainLogo" />
@@ -30,21 +30,27 @@ const MobileNavMenu = () => {
         </div>
         <div className="logoContainer">
           <Link to="/plan">
-            <img src={Plan} alt="plan" />
+            <img src={Plan} alt="plan" className="logoImages" />
             <p className="navNames">Plan</p>
           </Link>
         </div>
         <div className="logoContainer">
-          <img src={Gallery} alt="plan" />
-          <p className="navNames">Gallery</p>
+          <Link to="/gallery">
+            <img src={Gallery} alt="plan" className="logoImages" />
+            <p className="navNames">Gallery</p>
+          </Link>
         </div>
         <div className="logoContainer">
-          <img src={Login} alt="plan" />
-          <p className="navNames">Login</p>
+          <Link to="/login">
+            <img src={Login} alt="plan" className="logoImages" />
+            <p className="navNames">Login</p>
+          </Link>
         </div>
         <div className="logoContainer">
-          <img src={Contact} alt="plan" />
-          <p className="navNames">Contact Us</p>
+          <Link to="/contactus">
+            <img src={Contact} alt="plan" className="logoImages" />
+            <p className="navNames">Contact Us</p>
+          </Link>
         </div>
         <div className="PolicyContainer">
           <p>UGC Terms</p>
@@ -54,7 +60,9 @@ const MobileNavMenu = () => {
           <p>Cookies Policy</p>
           <p>Referral Business Policy</p>
         </div>
-        <Footer />
+        <div>
+          <Footer />
+        </div>
       </div>
     </>
   );

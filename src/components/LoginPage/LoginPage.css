@@ -1,0 +1,65 @@
+.loginContainer {
+  background-image: url("https://res.cloudinary.com/drjnmxyd5/image/upload/v1676033131/Group_1554_dojxgk.svg");
+  width: 100vw;
+  background-size: cover;
+  height: 100vh;
+}
+.loginPageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginBox {
+  height: 81px;
+  max-width: 239px;
+  margin: auto;
+  width: 100%;
+}
+.userInputs {
+  height: 35px;
+  max-width: 239px;
+  width: 100%;
+  padding: 10px;
+  color: #000000;
+  border: 1px solid #000000;
+  margin-bottom: 11px;
+}
+.loginButton {
+  height: 35px;
+  width: 279px;
+  border-radius: 20px;
+  border-width: 0px;
+  background: #575757;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 11px !important;
+  display: block;
+  margin: auto;
+}
+.forgotPassword {
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1890ff;
+  margin-top: 7px;
+}
+.problemText {
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+}
+.loginContainer > form {
+  margin-top: 200px;
+}

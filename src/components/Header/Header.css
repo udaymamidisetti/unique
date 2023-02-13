@@ -1,8 +1,7 @@
 .headerContainer {
   height: 95.0604476928711px;
-  max-width: 1075.614990234375px;
-  margin: auto;
-  margin-top: 23px;
+  width: 74.65277777777777vw;
+  margin-left: 69px;
 }
 .navLinksContainer {
   display: flex;
@@ -13,6 +12,7 @@
   width: 848.7644653320312px;
   display: flex;
   justify-content: space-between;
+  margin-left: 9.7575rem;
 }
 .logoContainer {
   position: relative;
@@ -25,6 +25,14 @@
   left: 68.76708984375px;
   top: 35.5673828125px;
   border-radius: 0px;
+}
+.logoImages {
+  height: 90px;
+  max-width: 150px;
+  left: 105px;
+  top: 6px;
+  border-radius: 0px;
+  width: 100%;
 }
 .navNames {
   position: absolute;
@@ -41,7 +49,15 @@
 }
 @media screen and (max-width: 1024px) {
   .navLinksContainer {
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: -69px;
+  }
+  .headerContainer {
+    margin: auto;
+  }
+  .LinksContainer {
+    margin-left: 0px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -71,5 +87,9 @@
   .dotButton {
     padding-left: 20px;
     position: absolute;
+    top: 35px;
+  }
+  .logoImages {
+    height: 70px;
   }
 }

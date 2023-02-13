@@ -6,6 +6,9 @@ import TermsOfUse from "./components/TermsOfUse/TermsOfUse";
 import MobileNavMenu from "./components/MobileNavMenu/MobileNavMenu";
 import MobileAboutus from "./components/MobileAboutus/MobileAboutus";
 import PlanMobileContainer from "./components/PlanMobileContainer/PlanMobileContainer";
+import Gallery from "./components/Gallery/Gallery";
+import LoginPage from "./components/LoginPage/LoginPage";
+import ContactUs from "./components/ContactUs/ContactUs";
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         <Route path="/navmenu" element={<MobileNavMenu />} />
         <Route path="/aboutus" element={<MobileAboutus />} />
         <Route path="/plan" element={<PlanMobileContainer />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/contactus" element={<ContactUs />} />
       </Routes>
     </BrowserRouter>
   );

@@ -49,6 +49,7 @@ function Header() {
           />
         </Link>
         <img src={Logo} alt="" className="logo" />
+        <div></div>
       </div>
     </>
   );

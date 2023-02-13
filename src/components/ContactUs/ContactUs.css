@@ -1,0 +1,63 @@
+.contactUsContainer {
+  background-image: url("https://res.cloudinary.com/drjnmxyd5/image/upload/v1676033131/Group_1554_dojxgk.svg");
+  width: 100vw;
+  background-size: cover;
+  height: 100vh;
+}
+.Mrcontainer {
+  width: 239px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.Mrcontainer > div > label {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.RadioContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.contactForm > input {
+  height: 35px;
+  width: 239px;
+  left: 20px;
+  top: 61.576171875px;
+  border-radius: 0px;
+  padding: 10px;
+  border: 1px solid #000000;
+  color: #000000;
+  margin-bottom: 11px;
+}
+.contactForm > select {
+  height: 35px;
+  width: 239px;
+  left: 20px;
+  top: 61.576171875px;
+  border-radius: 0px;
+  padding: 10px;
+  border: 1px solid #000000;
+  color: #000000;
+  margin-bottom: 11px;
+}
+.contactForm > .description {
+  height: 212px;
+  width: 239px;
+  left: 19.61767578125px;
+  top: 289.576171875px;
+  border-radius: 0px;
+  padding: 10px;
+}

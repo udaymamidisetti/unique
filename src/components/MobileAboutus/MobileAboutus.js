@@ -6,7 +6,7 @@ import "./MobileAboutus.css";
 import Footer from "../Footer/Footer";
 const MobileAboutus = () => {
   return (
-    <div className="MobileNav">
+    <div className="MobileAboutContainer">
       <Topbar />
       <Link to="/">
         <img

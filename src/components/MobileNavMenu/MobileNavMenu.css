@@ -1,8 +1,8 @@
-.arrowlogo {
+.mobileNavArrow {
   height: 24px;
   width: 33px;
   margin-left: 20px;
-  margin-top: 33.6376953125px;
+  margin-top: 15px;
   border-radius: 0px;
 }
 .mainLogo {
@@ -19,14 +19,21 @@
   background-image: url("https://res.cloudinary.com/drjnmxyd5/image/upload/v1676033131/Group_1554_dojxgk.svg");
   width: 100vw;
   background-size: cover;
+  height: 100vh;
 }
 .PolicyContainer {
-  height: 145px;
-  width: 190px;
-  margin: auto;
-  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
 }
 .PolicyContainer > p {
+  height: 25px;
+  border: 0.5px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ffffff;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
@@ -35,4 +42,8 @@
   text-align: center;
   color: #575757;
   margin-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
 }
