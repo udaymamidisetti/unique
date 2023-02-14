@@ -5,11 +5,10 @@
   height: 100vh;
 }
 .galleryImage {
-  height: 169.3779296875px;
-  left: 24.9012451171875px;
-  top: 110.578125px;
   border-radius: 5px;
   width: 100%;
   margin: auto;
-  width: 310px;
+  max-width: 310px;
+  display: block;
+  padding: 10px;
 }

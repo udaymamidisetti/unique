@@ -2,6 +2,8 @@
   background-image: url("https://res.cloudinary.com/drjnmxyd5/image/upload/v1676033131/Group_1554_dojxgk.svg");
   width: 100vw;
   background-size: cover;
+  height: 100vh;
+  overflow: hidden;
 }
 .aboutMatter {
   width: 320px;
@@ -28,7 +30,7 @@
   letter-spacing: 0em;
   text-align: center;
   color: #575757;
-  margin-bottom: 35px;
+  padding-bottom: 90px;
   height: 659px;
   overflow: scroll;
 }

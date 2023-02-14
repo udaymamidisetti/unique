@@ -8,18 +8,26 @@ const MobileAboutus = () => {
   return (
     <div className="MobileAboutContainer">
       <Topbar />
-      <Link to="/">
-        <img
-          src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1676097641/Group_1602_prpzew.svg"
-          alt=""
-          className="arrowlogo"
-        />
-      </Link>
-      <div className="logoContainer">
-        <Link to="/aboutus">
-          <img src={About} alt="plan" className="logoImages" />
-          <p className="navNames">About Us</p>
+      <div className="loginPageHeader">
+        <Link to="/navmenu">
+          <img
+            src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1676097641/Group_1602_prpzew.svg"
+            alt=""
+            className="arrowlogo"
+            style={{
+              position: "absolute",
+              top: "40px",
+              right: "0",
+              left: "15px",
+            }}
+          />
         </Link>
+        <div className="logoContainer">
+          <Link to="/aboutus">
+            <img src={About} alt="plan" className="logoImages" />
+            <p className="navNames">About Us</p>
+          </Link>
+        </div>
       </div>
       <div className="aboutMatter">
         <p>

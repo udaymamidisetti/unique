@@ -18,7 +18,8 @@ const UgcTerms = () => {
             </option>
           </select>
           <p>
-            Updated and effective from 26th Jan 2023. Copyright ©2023 MY STATUS.
+            Updated and effective from 26th Jan 2023.
+            <br /> Copyright ©2023 MY STATUS. <br />
             All rights reserved.
           </p>
         </div>

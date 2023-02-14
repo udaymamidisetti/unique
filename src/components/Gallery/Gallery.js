@@ -8,18 +8,26 @@ const Gallery = () => {
   return (
     <div className="galleryContainer">
       <Topbar />
-      <Link to="/">
-        <img
-          src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1676097641/Group_1602_prpzew.svg"
-          alt=""
-          className="arrowlogo"
-        />
-      </Link>
-      <div className="logoContainer">
-        <Link to="/aboutus">
-          <img src={Galleryimg} alt="plan" className="logoImages" />
-          <p className="navNames">Gallery</p>
+      <div className="loginPageHeader">
+        <Link to="/navmenu">
+          <img
+            src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1676097641/Group_1602_prpzew.svg"
+            alt=""
+            className="arrowlogo"
+            style={{
+              position: "absolute",
+              top: "40px",
+              right: "0",
+              left: "15px",
+            }}
+          />
         </Link>
+        <div className="logoContainer">
+          <Link to="/aboutus">
+            <img src={Galleryimg} alt="plan" className="logoImages" />
+            <p className="navNames">Gallery</p>
+          </Link>
+        </div>
       </div>
       <div>
         <img
