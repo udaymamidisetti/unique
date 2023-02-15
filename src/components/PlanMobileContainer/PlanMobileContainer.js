@@ -30,20 +30,28 @@ const PlanMobileContainer = () => {
         </div>
       </div>
       <div className="priceDetails">
+        <p>One Year Subscription @</p>
         <h1>INR 1,999 /-</h1>
         <p>(Inclusive of All Taxes)</p>
       </div>
       <img
-        style={{ margin: "auto", display: "block" }}
-        src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1676101862/9720ad_de45604e274141bab782c779094379b9_mv2_1_w4riq1.svg"
+        className="OfferImage"
+        src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1676441143/Group_1620_nmpb3h.svg"
         alt=""
       />
-      <img
-        style={{ margin: "auto", display: "block" }}
-        src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1676101867/1_ypgref.svg"
-        alt=""
-      />
-      <Footer />
+      <div className="playStorePlanContainer">
+        <img
+          src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1676037211/5a902dbf7f96951c82922875_cdqxon.svg"
+          alt=""
+        />
+        <img
+          src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1676037852/image_1_j3gpbw.svg"
+          alt=""
+        />
+      </div>
+      <div className="planFooter">
+        <Footer />
+      </div>
     </div>
   );
 };

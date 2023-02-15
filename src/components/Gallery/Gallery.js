@@ -29,7 +29,7 @@ const Gallery = () => {
           </Link>
         </div>
       </div>
-      <div>
+      <div className="ImagesContainer">
         <img
           className="galleryImage"
           src="https://res.cloudinary.com/drjnmxyd5/image/upload/v1676284362/image_3_xxetvl.svg"
@@ -46,7 +46,9 @@ const Gallery = () => {
           alt=""
         />
       </div>
-      <Footer />
+      <div className="GalleryFooter">
+        <Footer />
+      </div>
     </div>
   );
 };

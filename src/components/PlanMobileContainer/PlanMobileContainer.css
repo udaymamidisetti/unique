@@ -1,19 +1,25 @@
 .PlanMobileNav {
   background-image: url("https://res.cloudinary.com/drjnmxyd5/image/upload/v1676033131/Group_1554_dojxgk.svg");
   width: 100vw;
-  height: 100vh;
   background-size: cover;
 }
 
 .priceDetails {
-  height: 98.5478515625px;
-  width: 127.84619140625px;
+  height: 54.9560546875px;
+  width: 245.46630859375px;
+  left: 52.767333984375px;
+  top: 301.98046875px;
+  border-radius: 20px;
+  background: #d9d9d9;
+  margin-top: 200px !important;
   margin: auto;
-  margin-top: 142px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .priceDetails > h1 {
   height: 28px;
-  width: 126px;
   font-family: Poppins;
   font-size: 22px;
   font-weight: 600;
@@ -31,4 +37,47 @@
   letter-spacing: 0em;
   text-align: center;
   margin: auto;
+}
+.planFooter {
+  margin-top: 50px;
+  bottom: 0;
+  width: 100%;
+}
+.OfferImage {
+  height: 111.9716796875px;
+  width: 332.914306640625px;
+  left: 13.54296875px;
+  top: 387.234375px;
+  border-radius: 0px;
+  margin-top: 20px !important;
+  display: block;
+  margin: auto;
+}
+.playStorePlanContainer {
+  height: 59.36669921875px;
+  width: 323.7640380859375px;
+  border: 1px solid #a6a6a6;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+  margin-top: 90px;
+}
+@media screen and (max-width: 768px) {
+  .playStorePlanContainer {
+    flex-direction: column;
+    border: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 27px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .PlanMobileNav {
+    height: 100vh;
+  }
+  .planFooter {
+    position: fixed;
+    bottom: 0;
+  }
 }

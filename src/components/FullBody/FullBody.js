@@ -10,7 +10,9 @@ const FullBody = () => {
       <Topbar />
       <Header />
       <Slick />
-      <Footer />
+      <div className="homeFooter">
+        <Footer />
+      </div>
     </div>
   );
 };

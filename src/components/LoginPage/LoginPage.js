@@ -41,7 +41,9 @@ const LoginPage = () => {
           <span className="forgotPassword"> Contact us.</span>
         </p>
       </form>
-      <Footer />
+      <div className="loginFooter">
+        <Footer />
+      </div>
     </div>
   );
 };

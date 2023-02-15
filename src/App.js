@@ -9,6 +9,10 @@ import PlanMobileContainer from "./components/PlanMobileContainer/PlanMobileCont
 import Gallery from "./components/Gallery/Gallery";
 import LoginPage from "./components/LoginPage/LoginPage";
 import ContactUs from "./components/ContactUs/ContactUs";
+import Refund from "./components/Refund/Refund";
+import Privacy from "./components/Privacy/Privacy";
+import Cookies from "./components/Cookies/Cookies";
+import Refferal from "./components/Refferal/Refferal";
 
 function App() {
   return (
@@ -23,6 +27,10 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/contactus" element={<ContactUs />} />
+        <Route path="/refund" element={<Refund />} />
+        <Route path="/privacypolicy" element={<Privacy />} />
+        <Route path="/cookies" element={<Cookies />} />
+        <Route path="/refferral" element={<Refferal />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,0 +1,22 @@
+.referralFullContainer {
+  background-image: url("https://res.cloudinary.com/drjnmxyd5/image/upload/v1676033131/Group_1554_dojxgk.svg");
+  width: 100vw;
+  background-size: cover;
+}
+
+.refferalContainer {
+  height: 100vh;
+  overflow-y: scroll;
+  font-family: Poppins;
+  padding: 30px;
+}
+.refferalContainer > h4 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.refferalContainer > h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  margin: 20px;
+}

@@ -18,24 +18,34 @@ function Header() {
           </Link>
           <div className="LinksContainer">
             <div className="logoContainer">
-              <img src={About} alt="plan" className="logoImages" />
-              <p className="navNames">About Us</p>
+              <Link to="/aboutus">
+                <img src={About} alt="plan" className="logoImages" />
+                <p className="navNames">About Us</p>
+              </Link>
             </div>
             <div className="logoContainer">
-              <img src={Plan} alt="plan" />
-              <p className="navNames">Plan</p>
+              <Link to="/plan">
+                <img src={Login} alt="plan" />
+                <p className="navNames">Plan</p>
+              </Link>
             </div>
             <div className="logoContainer">
-              <img src={Gallery} alt="plan" />
-              <p className="navNames">Gallery</p>
+              <Link to="/gallery">
+                <img src={Gallery} alt="plan" />
+                <p className="navNames">Gallery</p>
+              </Link>
             </div>
             <div className="logoContainer">
-              <img src={Login} alt="plan" />
-              <p className="navNames">Login</p>
+              <Link to="/login">
+                <img src={Plan} alt="plan" />
+                <p className="navNames">Login</p>
+              </Link>
             </div>
             <div className="logoContainer">
-              <img src={Contact} alt="plan" />
-              <p className="navNames">Contact Us</p>
+              <Link to="/contactus">
+                <img src={Contact} alt="plan" />
+                <p className="navNames">Contact Us</p>
+              </Link>
             </div>
           </div>
         </div>

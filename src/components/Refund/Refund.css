@@ -1,0 +1,24 @@
+.refundFullContainer {
+  background-image: url("https://res.cloudinary.com/drjnmxyd5/image/upload/v1676033131/Group_1554_dojxgk.svg");
+  width: 100vw;
+  background-size: cover;
+}
+.refundContainer {
+  overflow-y: scroll;
+  font-family: Poppins;
+  padding: 30px;
+  height: 100vh;
+}
+.refundContainer > p > span {
+  font-weight: bold;
+}
+.refundContainer > p {
+  margin-bottom: 20px;
+}
+.refundContainer > h4 {
+  margin-bottom: 20px;
+}
+.refundContainer > h1 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}

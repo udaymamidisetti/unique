@@ -48,9 +48,24 @@ const ContactUs = () => {
           <input placeholder="First Name" />
           <input placeholder="Last Name" />
           <input placeholder="Email ID" />
-          <select></select>
+          <select>
+            <option value="none" selected disabled hidden className="options">
+              Parameter
+            </option>
+            <option className="options">Need Support</option>
+            <option className="options">Suggestion</option>
+            <option className="options">Intellectual Property Issue</option>
+            <option className="options">Purchase</option>
+            <option className="options">Refund</option>
+            <option className="options">Refferal Business</option>
+          </select>
           <input placeholder="Subject" />
-          <input placeholder="Description" className="description" />
+          <textarea
+            rows="4"
+            cols="50"
+            placeholder="Description"
+            className="description"
+          ></textarea>
         </div>
         <button className="loginButton">Login</button>
       </form>
@@ -59,7 +74,9 @@ const ContactUs = () => {
         Still have problem to login ?{" "}
         <span className="forgotPassword"> Contact us.</span>
       </p>
-      <Footer />
+      <div className="contactFooter">
+        <Footer />
+      </div>
     </div>
   );
 };

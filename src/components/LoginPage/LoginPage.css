@@ -63,3 +63,8 @@
 .loginContainer > form {
   margin-top: 200px;
 }
+.loginFooter {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

@@ -2,7 +2,6 @@
   background-image: url("https://res.cloudinary.com/drjnmxyd5/image/upload/v1676033131/Group_1554_dojxgk.svg");
   width: 100vw;
   background-size: cover;
-  height: 100vh;
 }
 .Mrcontainer {
   width: 239px;
@@ -41,17 +40,17 @@
   border: 1px solid #000000;
   color: #000000;
   margin-bottom: 11px;
+  font-family: Poppins;
 }
 .contactForm > select {
   height: 35px;
   width: 239px;
-  left: 20px;
-  top: 61.576171875px;
   border-radius: 0px;
-  padding: 10px;
+  padding-left: 5px;
   border: 1px solid #000000;
   color: #000000;
   margin-bottom: 11px;
+  font-family: Poppins;
 }
 .contactForm > .description {
   height: 212px;
@@ -60,4 +59,24 @@
   top: 289.576171875px;
   border-radius: 0px;
   padding: 10px;
+  font-family: Poppins;
+}
+.options {
+  padding: 10px;
+  color: #000000;
+  border: 1px solid #000000;
+}
+.contactFooter {
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+}
+@media screen and (min-width: 768px) {
+  .contactUsContainer {
+    height: 100vh;
+  }
+  .contactFooter {
+    position: fixed;
+    bottom: 0;
+  }
 }

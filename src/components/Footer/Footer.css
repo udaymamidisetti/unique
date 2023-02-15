@@ -20,12 +20,8 @@
   color: #575757;
 }
 .wholeFooter {
-  display: block;
   width: 100%;
   margin: auto;
-  margin-top: 57px;
-  position: absolute;
-  bottom: 0;
 }
 
 .links {

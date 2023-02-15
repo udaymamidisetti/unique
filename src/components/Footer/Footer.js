@@ -5,15 +5,18 @@ const Footer = () => {
   const footerlinks = [
     { p: "UGC Terms", link: "/ugcterms" },
     { p: "Terms of Use", link: "/termsofuse" },
-    { p: "Refund Policy" },
+    { p: "Refund Policy", link: "/refund" },
     {
       p: "Privacy Policy",
+      link: "/privacypolicy",
     },
     {
       p: "Cookies Policy",
+      link: "/cookies",
     },
     {
       p: "Referral Business Policy",
+      link: "/refferral",
     },
   ];
   return (

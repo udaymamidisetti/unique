@@ -2,7 +2,6 @@
   background-image: url("https://res.cloudinary.com/drjnmxyd5/image/upload/v1676033131/Group_1554_dojxgk.svg");
   width: 100vw;
   background-size: cover;
-  height: 100vh;
 }
 .galleryImage {
   border-radius: 5px;
@@ -11,4 +10,17 @@
   max-width: 310px;
   display: block;
   padding: 10px;
+}
+.ImagesContainer {
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .galleryContainer {
+    height: 100vh;
+  }
+  .GalleryFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
 }

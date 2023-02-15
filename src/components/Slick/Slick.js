@@ -2,6 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Image2 from "../../assets/42.png";
+import Image3 from "../../assets/43.png";
+import Image4 from "../../assets/45.png";
+import Image5 from "../../assets/51.png";
 import "./Slick.css";
 const Slick = () => {
   var settings = {
@@ -25,17 +29,37 @@ const Slick = () => {
               from different status categories
             </p>
           </div>
-          <div>
-            <h3>2</h3>
+          <div className="slickTabs">
+            <img className="slickImage" src={Image2} alt="" />
+            <h1>UNIQUE STATUS</h1>
+            <p>
+              Express your feelings to the people through sharing unique status
+              from different status categories
+            </p>
           </div>
-          <div>
-            <h3>3</h3>
+          <div className="slickTabs">
+            <img className="slickImage" src={Image3} alt="" />
+            <h1>UNIQUE STATUS</h1>
+            <p>
+              Express your feelings to the people through sharing unique status
+              from different status categories
+            </p>
           </div>
-          <div>
-            <h3>4</h3>
+          <div className="slickTabs">
+            <img className="slickImage" src={Image4} alt="" />
+            <h1>UNIQUE STATUS</h1>
+            <p>
+              Express your feelings to the people through sharing unique status
+              from different status categories
+            </p>
           </div>
-          <div>
-            <h3>5</h3>
+          <div className="slickTabs">
+            <img className="slickImage" src={Image5} alt="" />
+            <h1>UNIQUE STATUS</h1>
+            <p>
+              Express your feelings to the people through sharing unique status
+              from different status categories
+            </p>
           </div>
         </Slider>
       </div>

@@ -1,0 +1,21 @@
+.cookiesFullContainer {
+  background-image: url("https://res.cloudinary.com/drjnmxyd5/image/upload/v1676033131/Group_1554_dojxgk.svg");
+  width: 100vw;
+  background-size: cover;
+}
+
+.cookiesContainer {
+  height: 100vh;
+  overflow-y: scroll;
+  font-family: Poppins;
+  padding: 30px;
+}
+.cookiesContainer > h4 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.cookiesContainer > h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+}

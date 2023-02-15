@@ -9,9 +9,13 @@ import "./MobileNavMenu.css";
 import Topbar from "../Topbar/Topbar";
 import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
+import FullBody from "../FullBody/FullBody";
 const MobileNavMenu = () => {
   return (
     <>
+      <div className="fullHome">
+        <FullBody />
+      </div>
       <div className="MobileNav">
         <Topbar />
         <Link to="/">
@@ -52,15 +56,27 @@ const MobileNavMenu = () => {
             <p className="navNames">Contact Us</p>
           </Link>
         </div>
-        <div className="PolicyContainer">
-          <p>UGC Terms</p>
-          <p>Terms Of Use</p>
-          <p>Refund Policy</p>
-          <p>Privacy Policy</p>
-          <p>Cookies Policy</p>
-          <p>Referral Business Policy</p>
-        </div>
-        <div>
+        <ul className="PolicyContainer">
+          <Link to="/ugcterms">
+            <li>UGC Terms</li>
+          </Link>
+          <Link to="/termsofuse">
+            <li>Terms Of Use</li>
+          </Link>
+          <Link to="/refund">
+            <li>Refund Policy</li>
+          </Link>
+          <Link to="/privacypolicy">
+            <li>Privacy Policy</li>
+          </Link>
+          <Link to="/cookies">
+            <li>Cookies Policy</li>
+          </Link>
+          <Link to="/refferral">
+            <li>Referral Business Policy</li>
+          </Link>
+        </ul>
+        <div style={{ marginTop: "55px" }}>
           <Footer />
         </div>
       </div>
