@@ -31,7 +31,7 @@ const Slick = () => {
           </div>
           <div className="slickTabs">
             <img className="slickImage" src={Image2} alt="" />
-            <h1>UNIQUE STATUS</h1>
+            <h1>CUSTOMEISED POST AND BUSINESS CARDS</h1>
             <p>
               Express your feelings to the people through sharing unique status
               from different status categories
@@ -39,26 +39,26 @@ const Slick = () => {
           </div>
           <div className="slickTabs">
             <img className="slickImage" src={Image3} alt="" />
-            <h1>UNIQUE STATUS</h1>
+            <h1>GROW YOUR BUSINESS</h1>
             <p>
-              Express your feelings to the people through sharing unique status
-              from different status categories
+              We will help you to grow your Business by providing digital
+              content
             </p>
           </div>
           <div className="slickTabs">
             <img className="slickImage" src={Image4} alt="" />
-            <h1>UNIQUE STATUS</h1>
+            <h1>STEGANOGRAPHY</h1>
             <p>
-              Express your feelings to the people through sharing unique status
-              from different status categories
+              Share and read secret messages through Images by using our unique
+              steganography technology
             </p>
           </div>
           <div className="slickTabs">
             <img className="slickImage" src={Image5} alt="" />
-            <h1>UNIQUE STATUS</h1>
+            <h1>REFER AND EARN</h1>
             <p>
-              Express your feelings to the people through sharing unique status
-              from different status categories
+              Share and read secret messages through Images by using our unique
+              steganography technology
             </p>
           </div>
         </Slider>

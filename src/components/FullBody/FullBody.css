@@ -6,15 +6,18 @@
   overflow-y: scroll;
 }
 .homeFooter {
+  width: 100%;
   position: fixed;
   bottom: 0;
-  width: 100%;
+  margin-top: 50px;
 }
 @media screen and (max-width: 768px) {
   .FullbodyContainer {
     overflow: scroll;
   }
   .homeFooter {
-    position: initial;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 }

@@ -30,7 +30,8 @@ const Footer = () => {
       </ul>
       <div className="copywrightContainer">
         <p className="copyText">
-          Copyright 2023, All rights reserved | Proudly Made In India
+          Copyright 2023, All rights reserved
+          <span className="IndiaCopy">| Proudly Made In India</span>
         </p>
       </div>
     </div>

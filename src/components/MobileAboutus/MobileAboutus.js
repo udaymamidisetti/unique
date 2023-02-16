@@ -94,7 +94,9 @@ const MobileAboutus = () => {
           interest group, and increasing significant direct criticism.
         </p>
       </div>
-      <Footer />
+      <div className="aboutUsFooter">
+        <Footer />
+      </div>
     </div>
   );
 };

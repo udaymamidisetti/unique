@@ -2,11 +2,11 @@
   background-image: url("https://res.cloudinary.com/drjnmxyd5/image/upload/v1676033131/Group_1554_dojxgk.svg");
   width: 100vw;
   background-size: cover;
-
+  height: 100vh;
   overflow: hidden;
 }
 .aboutMatter {
-  width: 320px;
+  width: 340px;
   left: 20px;
   top: 103px;
   border-radius: 0px;
@@ -30,9 +30,14 @@
   letter-spacing: 0em;
   text-align: center;
   color: #575757;
-
+  padding-bottom: 90px;
   height: 659px;
   overflow: scroll;
+}
+.aboutUsFooter {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .aboutMatter {

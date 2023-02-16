@@ -76,7 +76,7 @@ const MobileNavMenu = () => {
             <li>Referral Business Policy</li>
           </Link>
         </ul>
-        <div style={{ marginTop: "55px" }}>
+        <div className="mobileNavFooter">
           <Footer />
         </div>
       </div>
